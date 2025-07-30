@@ -1,10 +1,19 @@
 import Navigation from "../components/Navigation";
+import Languages from "../components/knowledges/Languages";
+import Experience from "../components/knowledges/Experience";
+import OtherSkills from "../components/knowledges/OtherSkills";
+import Hobbies from "../components/knowledges/Hobbies";
 
 function Knowledges() {
   return (
-    <div>
-      <h1>Knowledges</h1>
+    <div className="knowledges">
       <Navigation />
+      <div className="knowledgesContent">
+        <Languages />
+        <Experience />
+        <OtherSkills />
+        <Hobbies />
+      </div>
     </div>
   );
 }

@@ -1,10 +1,11 @@
 import Navigation from "../components/Navigation";
+import ProjectList from "../components/portfolio/ProjectList";
 
 function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio</h1>
+    <div className="portfolio">
       <Navigation />
+      <ProjectList />
     </div>
   );
 }
