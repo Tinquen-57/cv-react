@@ -2,6 +2,7 @@
   .knowledgesContent {
     min-height: $minHeight;
     width: 100%;
+    color: $white;
     position: relative;
     overflow: hidden;
     display: grid;
@@ -13,6 +14,7 @@
 
     .languagesFrameworks,
     .experience,
+    .qualifications,
     .otherSkills,
     .hobbies {
       background: $color-2;
@@ -83,10 +85,6 @@
       .languagesList {
         padding-top: 0.5rem;
 
-        li {
-          color: $color-1;
-        }
-
         .progressBar {
           height: 0.4rem;
           background: transparent;
@@ -148,6 +146,62 @@
 
       .exp-2 {
         grid-area: 3;
+      }
+
+      .toQualifications {
+        color: $color-5;
+        cursor: pointer;
+
+        i {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+    .qualifications {
+      grid-area: E;
+      margin: 0 0 0.5rem 0.5rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 10% 1fr 1fr;
+      grid-template-areas:
+        "1"
+        "2"
+        "3";
+
+      h3 {
+        grid-area: 1;
+      }
+
+      h4 {
+        font-size: 1.1rem;
+        color: $color-5;
+      }
+
+      h5 {
+        color: $color-3;
+        padding: 0.5rem 0 0.5rem 1rem;
+      }
+
+      p {
+        text-align: justify;
+        padding: 0 1rem;
+      }
+
+      .qual-1 {
+        grid-area: 2;
+      }
+
+      .qual-2 {
+        grid-area: 3;
+      }
+
+      .toQualifications {
+        color: $color-5;
+        cursor: pointer;
+
+        i {
+          margin-right: 0.5rem;
+        }
       }
     }
     .otherSkills {
