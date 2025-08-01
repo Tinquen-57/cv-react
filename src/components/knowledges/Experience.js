@@ -10,7 +10,7 @@ const Experience = () => {
 
   return (
     <div className="cardContainer">
-      <div className="xpQualifs" ref={card} onClick={flipCard}>
+      <div className="xpQualifs" ref={card}>
         <div className="card-face experience">
           <h3>Expériences</h3>
           <div className="exp-1">
@@ -32,7 +32,7 @@ const Experience = () => {
               dolorem in ipsam!
             </p>
           </div>
-          <div className="toQualifications" ref={button}>
+          <div className="toQualifications" ref={button} onClick={flipCard}>
             <i className="fas fa-arrow-right"></i>
             <span>Qualifications</span>
           </div>
@@ -59,7 +59,7 @@ const Experience = () => {
               dolorem in ipsam!
             </p>
           </div>
-          <div className="toQualifications">
+          <div className="toQualifications" onClick={flipCard}>
             <i className="fas fa-arrow-right"></i>
             <span>Expériences</span>
           </div>
