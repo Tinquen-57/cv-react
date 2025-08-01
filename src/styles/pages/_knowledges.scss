@@ -110,100 +110,79 @@
         }
       }
     }
-    .experience {
+    .cardContainer {
       grid-area: E;
       margin: 0 0 0.5rem 0.5rem;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 10% 1fr 1fr;
-      grid-template-areas:
-        "1"
-        "2"
-        "3";
+      perspective: 1000px;
 
-      h3 {
-        grid-area: 1;
-      }
+      .xpQualifs {
+        transition: transform 1s;
+        height: 100%;
+        transform-style: preserve-3d;
 
-      h4 {
-        font-size: 1.1rem;
-        color: $color-5;
-      }
+        .xpQualifs.is-flipped {
+          transform: rotateY(180deg);
+        }
 
-      h5 {
-        color: $color-3;
-        padding: 0.5rem 0 0.5rem 1rem;
-      }
+        .card-face {
+          height: 100%;
+          position: absolute;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 10% 1fr 1fr;
+          grid-template-areas:
+            "1"
+            "2"
+            "3";
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          overflow: hidden;
+        }
 
-      p {
-        text-align: justify;
-        padding: 0 1rem;
-      }
+        .experience,
+        .qualifications {
+          h3 {
+            grid-area: 1;
+          }
 
-      .exp-1 {
-        grid-area: 2;
-      }
+          h4 {
+            font-size: 1.1rem;
+            color: $color-5;
+          }
 
-      .exp-2 {
-        grid-area: 3;
-      }
+          h5 {
+            color: $color-3;
+            padding: 0.5rem 0 0.5rem 1rem;
+          }
 
-      .toQualifications {
-        color: $color-5;
-        cursor: pointer;
+          p {
+            text-align: justify;
+            padding: 0 1rem;
+          }
 
-        i {
-          margin-right: 0.5rem;
+          .exp-1 {
+            grid-area: 2;
+          }
+
+          .exp-2 {
+            grid-area: 3;
+          }
+
+          .toQualifications {
+            color: $color-5;
+            cursor: pointer;
+
+            i {
+              margin-right: 0.5rem;
+            }
+          }
+        }
+        .qualifications {
+          transform: rotateY(180deg);
         }
       }
     }
-    .qualifications {
-      grid-area: E;
-      margin: 0 0 0.5rem 0.5rem;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 10% 1fr 1fr;
-      grid-template-areas:
-        "1"
-        "2"
-        "3";
 
-      h3 {
-        grid-area: 1;
-      }
-
-      h4 {
-        font-size: 1.1rem;
-        color: $color-5;
-      }
-
-      h5 {
-        color: $color-3;
-        padding: 0.5rem 0 0.5rem 1rem;
-      }
-
-      p {
-        text-align: justify;
-        padding: 0 1rem;
-      }
-
-      .qual-1 {
-        grid-area: 2;
-      }
-
-      .qual-2 {
-        grid-area: 3;
-      }
-
-      .toQualifications {
-        color: $color-5;
-        cursor: pointer;
-
-        i {
-          margin-right: 0.5rem;
-        }
-      }
-    }
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
