@@ -125,11 +125,13 @@
           position: absolute;
           display: grid;
           grid-template-columns: 1fr;
-          grid-template-rows: 10% 1fr 1fr;
+          grid-template-rows: 10% 1fr 1fr 1fr 1fr;
           grid-template-areas:
             "1"
             "2"
-            "3";
+            "3"
+            "4"
+            "5";
           -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
           overflow: hidden;
@@ -162,6 +164,13 @@
 
           .exp-2 {
             grid-area: 3;
+          }
+
+          .exp-3 {
+            grid-area: 4;
+          }
+          .exp-4 {
+            grid-area: 5;
           }
 
           .toQualifications {

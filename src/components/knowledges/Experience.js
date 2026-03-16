@@ -23,13 +23,28 @@ const Experience = () => {
             </p>
           </div>
           <div className="exp-2">
-            <h4>Titre professionnel Développeur Web et Web Mobile</h4>
-            <h5>2024 - 2025</h5>
+            <h4>Barista Shift Manager</h4>
+            <h5>09/22 - 09/23</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              dolores eius accusamus. Error eos excepturi modi adipisci!
-              Reiciendis unde qui nihil magni labore ullam consectetur ut culpa,
-              dolorem in ipsam!
+              Management et gestion de l’équipe, des stocks et du salon.
+              Interactions clients, prise de commandes, encaissement.
+              préparation et service. Entretien du salon.
+            </p>
+          </div>
+          <div className="exp-3">
+            <h4>Barista</h4>
+            <h5>02/19 - 10/21 & 06/22 - 09/22</h5>
+            <p>
+              Interactions clients, prise de commandes, encaissement.
+              préparation et service. Entretien du salon.
+            </p>
+          </div>
+          <div className="exp-4">
+            <h4>Chargé clientèle | Téléconseiller</h4>
+            <h5>10/21 - 06/22</h5>
+            <p>
+              Réception, analyse et traitement de la demande du client. Lien
+              direct entre les clients et le groupe Stellantis.
             </p>
           </div>
           <div className="toQualifications" ref={button} onClick={flipCard}>
@@ -42,22 +57,12 @@ const Experience = () => {
           <div className="qual-1">
             <h4>Titre professionnel Développeur Web et Web Mobile</h4>
             <h5>2024 - 2025</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              dolores eius accusamus. Error eos excepturi modi adipisci!
-              Reiciendis unde qui nihil magni labore ullam consectetur ut culpa,
-              dolorem in ipsam!
-            </p>
+            <p>Titre développeur Web & Web mobile Full-Stack.</p>
           </div>
           <div className="qual-2">
-            <h4>Titre professionnel Développeur Web et Web Mobile</h4>
-            <h5>2024 - 2025</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              dolores eius accusamus. Error eos excepturi modi adipisci!
-              Reiciendis unde qui nihil magni labore ullam consectetur ut culpa,
-              dolorem in ipsam!
-            </p>
+            <h4>BACCALAUREAT GENERAL Série SCIENTIFIQUE</h4>
+            <h5>2014 - 2017</h5>
+            <p>Spécialité Informatique et Sciences du Numérique.</p>
           </div>
           <div className="toQualifications" onClick={flipCard}>
             <i className="fas fa-arrow-right"></i>

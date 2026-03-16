@@ -1,11 +1,11 @@
 export const portfolioData = [
   {
     id: 1,
-    name: "ipsum.com",
-    languages: ["javascript", "css"],
-    languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
-    source: "https://www.github.com",
-    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptas animi autem corrupti necessitatibus ea modi ipsa voluptate unde quas ex, distinctio reiciendis fuga quisquam natus, est cum aliquam architecto.",
+    name: "React Movies",
+    languages: ["javascript", "react", "css"],
+    languagesIcons: ["fab fa-js", "fab fa-react", "fab fa-sass"],
+    source: "https://github.com/Tinquen-57/cinema-app.git",
+    info: `Bibliothèque de films créée via l'API de The Movie DB. Le site en prod : https://reactmoviz.netlify.app`,
     picture: "./media/project1.png",
   },
   {
@@ -15,7 +15,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js", "fab fa-php", "fab fa-css3-alt"],
     source: "https://www.github.com",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptas animi autem corrupti necessitatibus ea modi ipsa voluptate unde quas ex, distinctio reiciendis fuga quisquam natus, est cum aliquam architecto.",
-    picture: "./media/project1.png",
+    picture: "./media/placeholder.png",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
     source: "https://www.github.com",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptas animi autem corrupti necessitatibus ea modi ipsa voluptate unde quas ex, distinctio reiciendis fuga quisquam natus, est cum aliquam architecto.",
-    picture: "./media/project1.png",
+    picture: "./media/placeholder.png",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
     source: "https://www.github.com",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptas animi autem corrupti necessitatibus ea modi ipsa voluptate unde quas ex, distinctio reiciendis fuga quisquam natus, est cum aliquam architecto.",
-    picture: "./media/project1.png",
+    picture: "./media/placeholder.png",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js", "fab fa-react", "fab fa-css3-alt"],
     source: "https://www.github.com",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptas animi autem corrupti necessitatibus ea modi ipsa voluptate unde quas ex, distinctio reiciendis fuga quisquam natus, est cum aliquam architecto.",
-    picture: "./media/project1.png",
+    picture: "./media/placeholder.png",
   },
   {
     id: 6,
@@ -51,6 +51,6 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
     source: "https://www.github.com",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptas animi autem corrupti necessitatibus ea modi ipsa voluptate unde quas ex, distinctio reiciendis fuga quisquam natus, est cum aliquam architecto.",
-    picture: "./media/project1.png",
+    picture: "./media/placeholder.png",
   },
 ];
