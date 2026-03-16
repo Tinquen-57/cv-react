@@ -5,7 +5,7 @@ function Navigation() {
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <img src="./media/id.png" alt="profil-pic" style={{ width: "60%" }} />
+          <img src="./media/id.jpg" alt="profil-pic" style={{ width: "60%" }} />
           <h3>Quentin HERRMANN</h3>
         </div>
       </div>
@@ -64,7 +64,7 @@ function Navigation() {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://github.com/Tinquen-57"
               target="_blank"
               rel="noopener noreferrer"
             >

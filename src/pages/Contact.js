@@ -30,7 +30,7 @@ function Contact() {
                 onClick={() => alert("Email copié!")}
               >
                 {" "}
-                herrmann.quentin57@gmail.com
+                quentin.herrmann@gmail.com
               </span>
             </li>
           </ul>
@@ -46,7 +46,7 @@ function Contact() {
               <i className="fab fa-linkedin"></i>
             </a>
             <a
-              href="https://www.google.com"
+              href="https://github.com/Tinquen-57"
               target="_blank"
               rel="noopener noreferrer"
             >

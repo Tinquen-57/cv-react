@@ -9,7 +9,7 @@ function Home() {
           <h1>Quentin HERRMANN</h1>
           <h2>Développeur Web</h2>
           <div className="pdf">
-            <a href="?/medi/cv.pdf" target="_blank">
+            <a href="./media/CV.pdf" target="_blank">
               Télécharger CV
             </a>
           </div>
